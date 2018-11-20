@@ -21,6 +21,8 @@ public class Main {
         System.out.println(o2);
         Object o3=((Invocable )engine).invokeFunction("f","1");
         System.out.println(o3);
+
+        System.out.println(engine.get("n"));
     }
 }
 
